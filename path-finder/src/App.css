@@ -1,0 +1,43 @@
+/* App.css */
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(20, 30px);
+  grid-gap: 2px;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(20, 30px);
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.grid-cell.start {
+  background-color: green;
+}
+
+.grid-cell.end {
+  background-color: red;
+}
+
+.grid-cell.path {
+  background-color: blue;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
